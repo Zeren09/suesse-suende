@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Bilder/favicon_suesse_suende.svg" type="image/svg+xml" class="favicon">
+    <title>Kontakt</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+     <!-- Logo -->
+    <div class="logo-wrapper">
+        <a href="index.html" title="Zur Startseite">
+            <img src="./Bilder/logo_suesse_suende.svg" alt="Logo der Website">
+        </a>
+    </div>
+    <!-- Navigation -->
+    <nav id="hmenu">
+        <ul>
+            <!-- Rezepte Dropdown -->
+            <li class="submenu">
+                <p>Rezepte</p>
+                <ul>
+                    <li><a href="kuchen.html" title="Verschiedene Kuchenrezepte">Kuchen</a></li>
+                    <li><a href="cupcakes.html" title="Verschiedene Cupcakerezepte">Cupcakes</a></li>
+                    <li><a href="cookies.html" title="Verschiedene Keksrezepte">Cookies</a></li>
+                    <li><a href="dessert_im_glas.html" title="Desserts im Glas">Dessert im Glas</a></li>
+                </ul>
+            </li>
+
+            <!-- Tipps & Tricks Dropdown -->
+            <li class="submenu">
+                <p>Tipps & Tricks</p>
+                <ul>
+                    <li><a href="grundlagen.html" title="Grundlagen und Empfehlungen">Grundlagen und Empfehlungen</a></li>
+                    <li><a href="probleme_loesen.html" title="Lösungen bei Backpannen">Häufige Probleme lösen</a></li>
+                    <li><a href="dekorationstipps.html" title="Dekorationstipps">Dekorationstipps</a></li>
+                </ul>
+            </li>
+
+            <!-- Über mich Dropdown -->
+            <li class="submenu">
+                <p>Über mich</p>
+                <ul>
+                    <li><a href="meine_geschichte.html" title="Meine Geschichte">Meine Geschichte</a></li>
+                    <li><a href="kontakt.html" title="Kontaktinformationen">Kontakt</a></li>
+                    <li><a href="impressum.html" title="Rechtliches">Impressum</a></li>
+                </ul>
+            </li>
+
+            <!-- Sitemap -->
+            <li>
+                <a href="sitemap.html" title="Die komplette Website im Überblick">Sitemap</a>
+            </li>
+
+            <!-- Suchfeld -->
+                <li class="search">
+                    <input type="search" placeholder="Suche...">
+                    <span class="fas fa-search"></span>
+                </li>
+        </ul>
+    </nav>
+</header>
+    <!-- Hauptinhalt -->
+    <main>
+        <div class="hero">
+        <h1>Kontakt</h1>
+        </div>
+        <section class="kontakt-text">
+            <p>Sie möchten mir schreiben? Ich freue mich auf Ihre Nachricht!</p>
+            <p>Ob Fragen zu Rezepten, Kooperationen, Feedback oder einfach liebe Grüße - ich bin gerne für Sie da.</p>
+        </section>
+
+        <section class="kontakt-info">
+            <p>📩 E-Mail: <a href="mailto:kontakt@suesse-suende.de">kontakt@suesse-suende.de</a><br>
+            📱 Instagram: <a href="https://www.instagram.com/suesse.suende" target="_blank">@suesse.suende</a><br>
+            📱 Facebook: <a href="https://www.facebook.com/suesse.suende" target="_blank">@suesse.suende</a><br>
+            📱 TikTok: <a href="https://www.tiktok.com/@suesse.suende" target="_blank">@suesse.suende</a><br>
+            📍 Standort: Deutschland
+            </p>
+        </section> 
+
+        <section class="kontakt-hinweis">
+            <p>Ich beantworte alle Nachrichten persönlich und so schnell wie möglich.</p>
+        </section>
+
+        <section class="kontakt-formular">
+            <h2>Nachricht schreiben</h2>
+            <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+
+            <label for="betreff">Betreff:</label>
+            <input type="text" id="betreff" name="betreff" placeholder="Betreff" required>
+
+            <label for="nachricht">Nachricht:</label>
+            <textarea id="nachricht" name="nachricht" placeholder="Ihre Nachricht" rows="5" required></textarea>
+
+            <button type="button">Absenden</button>
+            </form>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer>
+       <div class="footer">
+            <ul>
+                <li><a href="impressum.html" title="Rechtliches">Impressum</a></li>
+                <li><a href="kontakt.html" title="Kontaktinformationen">Kontakt</a></li>
+                <li><a href="sitemap.html" title="Die komplette Website im Überblick">Sitemap</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+
+</html>

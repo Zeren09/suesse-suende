@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="de"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Bilder/favicon_suesse_suende.svg" type="image/svg+xml" class="favicon">
+    <title>Startseite - Süße Sünde</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+     <!-- Logo -->
+    <div class="logo-wrapper">
+        <a href="index.html" title="Zur Startseite">
+            <img src="./Bilder/logo_suesse_suende.svg" alt="Logo der Website">
+        </a>
+    </div>
+    <!-- Navigation -->
+    <nav id="hmenu">
+        <ul>
+            <!-- Rezepte Dropdown -->
+            <li class="submenu">
+                <p>Rezepte</p>
+                <ul>
+                    <li><a href="kuchen.html" title="Verschiedene Kuchenrezepte">Kuchen</a></li>
+                    <li><a href="cupcakes.html" title="Verschiedene Cupcakerezepte">Cupcakes</a></li>
+                    <li><a href="cookies.html" title="Verschiedene Keksrezepte">Cookies</a></li>
+                    <li><a href="dessert_im_glas.html" title="Desserts im Glas">Dessert im Glas</a></li>
+                </ul>
+            </li>
+
+            <!-- Tipps & Tricks Dropdown -->
+            <li class="submenu">
+                <p>Tipps & Tricks</p>
+                <ul>
+                    <li><a href="grundlagen.html" title="Grundlagen und Empfehlungen">Grundlagen und Empfehlungen</a></li>
+                    <li><a href="probleme_loesen.html" title="Lösungen bei Backpannen">Häufige Probleme lösen</a></li>
+                    <li><a href="dekorationstipps.html" title="Dekorationstipps">Dekorationstipps</a></li>
+                </ul>
+            </li>
+
+            <!-- Über mich Dropdown -->
+            <li class="submenu">
+                <p>Über mich</p>
+                <ul>
+                    <li><a href="meine_geschichte.html" title="Meine Geschichte">Meine Geschichte</a></li>
+                    <li><a href="kontakt.html" title="Kontaktinformationen">Kontakt</a></li>
+                    <li><a href="impressum.html" title="Rechtliches">Impressum</a></li>
+                </ul>
+            </li>
+
+            <!-- Sitemap -->
+            <li>
+                <a href="sitemap.html" title="Die komplette Website im Überblick">Sitemap</a>
+            </li>
+
+            <!-- Suchfeld -->
+                <li class="search">
+                    <input type="search" placeholder="Suche...">
+                    <span class="fas fa-search"></span>
+                </li>
+        </ul>
+    </nav>
+</header>
+    <!-- Hauptinhalt -->
+    <main>
+        <div class="hero">
+        <h1>Herzlich willkommen bei Süße Sünde!</h1>
+        <p>Schön, dass Sie da sind. Hier finden Sie abwechslungsreiche Backrezepte - von klassischen Kuchen bis zu kreativen Desserts im Glas. Einfach erklärt, liebevoll präsentiert.</p>
+        </div>
+        <div class="container swiper">
+            <div class="card-wrapper">
+                <h2 class="top"> Beliebte Rezepte </h2>
+                <ul class="card-list swiper-wrapper">
+                    <li class="card-item swiper-slide">
+                        <a href="bienenstich.html" class="card-link" title="Zum Bienestich Rezept">
+                            <img src="https://www.einfachbacken.de/sites/einfachbacken.de/files/styles/full_width_tablet_4_3/public/2018-09/bienenstich_44333.jpg?h=4521fff0&itok=FbRtiFt0" 
+                            class="card-image" alt="Bienenstich-Torte mit karamellisierten Mandelblättchen auf Glasplatte, ein Stück herausgeschnitten">
+                            <p class="card-text"> <b> Bienenstich </b>
+                                <br> Ein Klassiker mit luftigem Biskuitteig, zarter Vanillecreme und karamellisierten Mandeln - ideal für besondere Anlässe oder einfach zum Genießen.</p>
+                            <div class="card-button-wrapper">
+                                <button class="card-button">zum Rezept</button>
+                            </div>
+                            </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="oreo_cupcake.html" class="card-link" title="Zum Oreo Cupcake Rezept">
+                            <img src="./Bilder/oreo_cupcake.jpg" class="card-image" alt="Schoko-Cupcake mit Oreo-Frosting und einem halben Oreo als Topping, mit Krümeln auf dem Spiegel">
+                            <p class="card-text"> <b> Oreo Cupcake </b>
+                                <br> Ein saftiger Schokoteig mit Oreo-Stückchen, getoppt mit cremigem Frischkäse-Frosting - für echte Keksfans ein Muss!</p>
+                            <div class="card-button-wrapper">
+                                <button class="card-button">zum Rezept</button>
+                            </div>
+                            </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="apple_crumble_cookie.html" class="card-link" title="Zum Apple Crumble Cookie Rezept">
+                            <img src="./Bilder/apple_crumble_cookie.jpg" class="card-image" alt="Apple Crumble Cookies mit Vanillecreme, karamellisierten Apfelstückchen und Zimtstangen als Dekoration">
+                            <p class="card-text"> <b> Apple Crumble Cookies </b>
+                               <br> Mit Apfelstückchen, Zimt und cremiger Sahne - diese Cookies sind wie Mini-Apfelkuchen, ideal für gemütliche Nachmittage oder als Mitbringsel.</p>
+                            <div class="card-button-wrapper">
+                                <button class="card-button">zum Rezept</button>
+                            </div>
+                            </a>
+                    </li>
+                    <li class="card-item swiper-slide">
+                        <a href="panna_cotta.html" class="card-link" title="Zum Panna Cotta Rezept">
+                            <img src="./Bilder/panna_cotta.jpg" class="card-image" alt="Panna Cotta im Glas mit rotem Fruchtspiegel und frischen Blaubeeren als Dekoration">
+                            <p class="card-text"> <b> Panna Cotta </b>
+                                <br> Sahnig-feine Vanillenote trifft auf fruchtiges Beerenpüree - dieses Dessert ist schnell gemacht und sorgt für einen Wow-Effekt bei jedem Dinner.</p>
+                            <div class="card-button-wrapper">
+                                <button class="card-button">zum Rezept</button>
+                            </div>
+                            </a>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        </div>
+        </div>
+        <div class="recepies">
+            <h2 class="heading"> Rezepte </h2>
+            <ul class="recepie-list">
+            <li class="recepie-item">
+                <a href="kuchen.html" title="Verschiedene Kuchenrezepte" class="recepie-link">
+                <img src="https://recipesblob.oetker.de/assets/1c43b3d127534d41addb773a856533a2/1920x1153/apfeltorte-qf-3079-dr-oetker.webp"
+                    alt="Apfel-Sahne-Torte mit heller Creme und Kakaopulver, ein Stück wird auf Tortenheber serviert" 
+                    class="recepie-image">
+                <p class="recepie-text">Kuchen</p>
+                </a>
+            </li>
+            <li class="recepie-item">
+                <a href="cupcakes.html" title="Verschiedene Cupcakerezepte" class="recepie-link">
+                <img src="./Bilder/bueno_cupcake.jpg" alt="Cupcake mit hellem Frosting und einem Stück Kinder Bueono als Dekoration"
+                    class="recepie-image">
+                <p class="recepie-text">Cupcakes</p>
+                </a>
+            </li>
+            <li class="recepie-item">
+                <a href="cookies.html" title="Verschiedene Keksrezepte" class="recepie-link">
+                <img src="./Bilder/zimt_cookie.jpg" alt="Zimt-Cookies mit cremigem Topping und Zimtpulver, angerichtet mit Zimtstangen"
+                    class="recepie-image">
+                <p class="recepie-text">Cookies</p>
+                </a>
+            </li>
+            <li class="recepie-item">
+                <a href="dessert_im_glas.html" title="Desserts im Glas" class="recepie-link">
+                <img src="./Bilder/apple_crumble_im_glas.jpg" alt="Apple Crumble im Glas mit Streuseln und Zimtstangen auf hellem Untergrund im Glas"
+                    class="recepie-image">
+                <p class="recepie-text">Dessert im Glas</p>
+                </a>
+            </li>
+            </ul>
+        </div>
+
+        <div class="tipps-tricks">
+            <h2 class="heading">Tipps & Tricks</h2>
+            <div class="tipps-container">
+                <div class="tipp-box">
+                    <h3>Grundlagen und Empfehlungen</h3>
+                    <p>Hier finden Sie die wichtigsten Grundlagen und Empfehlungen für das Backen. Von der Auswahl der Zutaten bis hin zu den besten Backtechniken.</p>
+                    <a href="grundlagen.html" class="mehr-link">mehr lesen</a>
+                </div>
+                <div class="tipp-box">
+                    <h3>Häufige Probleme lösen</h3>
+                    <p>Hier finden Sie Lösungen für häufige Probleme beim Backen. Von der perfekten Konsistenz des Teigs bis hin zu Tipps gegen Überlaufen.</p>
+                    <a href="probleme.html" class="mehr-link">mehr lesen</a>
+                </div>
+                <div class="tipp-box">
+                    <h3>Dekorationstipps</h3>
+                    <p>Hier finden Sie kreative Dekorationstipps für Ihre Backwerke. Von der richtigen Glasur bis hin zu essbaren Verzierungen.</p>
+                    <a href="dekorationstipps.html" class="mehr-link">mehr lesen</a>
+                 </div>
+            </div>    
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+       <div class="footer">
+            <ul>
+                <li><a href="impressum.html" title="Rechtliches">Impressum</a></li>
+                <li><a href="kontakt.html" title="Kontaktinformationen">Kontakt</a></li>
+                <li><a href="sitemap.html" title="Die komplette Website im Überblick">Sitemap</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script> 
+</body>
+
+</html>
